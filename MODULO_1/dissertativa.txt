@@ -1,0 +1,3 @@
+Com base no sistema apresentado para o gerenciamento de uma biblioteca, seria mais adequado utilizar o paradigma de programação orientado a objetos. 
+Essa seria a conclusão mais lógica, pois esse paradigma permite criar classes em que podemos inserir características e ações, na forma de encapsumaneto e módulos, para gerir as entidades do relacionamento. 
+Além disso, a relação entre essas entidades, como os empréstimos, seriam mais fáceis de realizar, a manutenção é facilitado por isolar partes do código e possibilitaria mais oportunidades para o sistema crescer com novas aplicações no futuro. 
