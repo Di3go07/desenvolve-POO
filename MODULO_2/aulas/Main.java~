@@ -1,0 +1,12 @@
+public class Main {
+	public static void main(String[] args) {
+		User user = new User();
+		user.setNome("J.R.R Tolkien");
+		user.setIdade("150");
+		
+		Autor autor = new Autor();
+		String[] livros = {"O Hobbit", "Senhor dos Anéis", "Silmarilion"};
+		autor.setLivros(livros);
+		autor.imprimeDados(user);
+	}
+}
