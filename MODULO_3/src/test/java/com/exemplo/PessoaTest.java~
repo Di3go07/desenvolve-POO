@@ -1,0 +1,14 @@
+package com.exemplo; 
+
+import com.exemplo.Pessoa;
+import com.exemplo.Livro;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+public class PessoaTeste {
+	 @Test
+	public void getNomeIgualNomePassado() {
+	 	Pessoa pessoa = new Pessoa();
+	 	pessoa.setNome("Diego");
+	 	assertEquals("Diego", pessoa.getNome());
+	}
+}
