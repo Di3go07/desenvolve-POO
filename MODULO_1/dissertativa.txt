@@ -1,3 +1,34 @@
-Com base no sistema apresentado para o gerenciamento de uma biblioteca, seria mais adequado utilizar o paradigma de programação orientado a objetos. 
-Essa seria a conclusão mais lógica, pois esse paradigma permite criar classes em que podemos inserir características e ações, na forma de encapsumaneto e módulos, para gerir as entidades do relacionamento. 
-Além disso, a relação entre essas entidades, como os empréstimos, seriam mais fáceis de realizar, a manutenção é facilitado por isolar partes do código e possibilitaria mais oportunidades para o sistema crescer com novas aplicações no futuro. 
+-- Resolução dissertativa --
+
+1 Livro possui 1 Autor principal
+Autor pode ter mais de 1 livro 
+Cada livro pode ser emprestado muitas vezes porem nao pode estar em emprestimo mais de uma vez
+Cada Usuário pode realizar mais de um emprestimo
+Cada emprestimo esta ligado a um livro e a um usuario
+
+Autor{
+    ID: int
+    nome: string
+    nacionalidade: string
+}
+Usuario{
+    ID: int
+    nome: string
+    email: string
+    CPF: string
+    Ano_nascimento: date
+}
+Emprestimo{
+    data Retirada: date
+    data Devoluçao: date
+    usuário:Usuário
+    livro:Livro
+}
+Livro{
+    ID: int
+    titulo: string
+    IDautor: int
+    Genero:string
+    Quantidade: int
+    Ano: date
+}
